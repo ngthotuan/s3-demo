@@ -5,3 +5,8 @@ aws:
     bucketName: ${S3_BUCKET_NAME}
     region: ${S3_REGION}
     endpoint: ${S3_ENDPOINT}
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
